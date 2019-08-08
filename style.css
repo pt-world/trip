@@ -204,33 +204,42 @@ body, html{
     transition: 2s;  
 }
 
-.title{
+.modal-open{
+    display: block;
     margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 7px 20px;
     text-align: center;
+    width: max-content;
+    height: auto;
+    cursor: pointer;
+    border: 1px solid white;
+
 }
 
+.modal-open:hover{
+    border: 1px solid grey;
+    transition: 0.75s ease;
+}
+
+
+
 .pic-header{
-    margin: auto;
-    margin-top: 10px;
-    padding: 15px;
-    padding-bottom: 0px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 10px;
     letter-spacing: 5px;
     font-size: 14px;
     text-transform: uppercase; 
 }
 
-.modal-open{
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    margin: auto;
+.pic-subtitle{
     font-size: 12px;
     letter-spacing: 1px;
     color: grey;
-}
-
-.modal-open:active{
-    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .modal{
@@ -399,7 +408,16 @@ body, html{
     }
 
     .container{
-        height: 80%;
+        height: 90%;
+    }
+
+    .modal-open{
+        margin-top: 12%;
+        border: 1px solid grey;
+    }
+
+    .modal-open:hover{
+        border: none;
     }
 
     .modal-img{
@@ -410,13 +428,13 @@ body, html{
 
 @media (max-width: 450px){
     .container{
-        height: 75%;
+        height: 80%;
     }
 }
 
 @media (max-width: 375px){
     .container{
-        height: 70%;
+        height: 75%;
     }
 }
 
