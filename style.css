@@ -420,6 +420,16 @@ body, html{
         border: none;
     }
 
+    .pic-header{
+        margin: auto;
+    }
+
+    .pic-subtitle{
+        display: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
     .modal-img{
         width: 95%;
     }
@@ -428,13 +438,13 @@ body, html{
 
 @media (max-width: 450px){
     .container{
-        height: 85%;
+        height: ;
     }
 }
 
 @media (max-width: 375px){
     .container{
-        height: 80%;
+        height: ;
     }
 }
 
