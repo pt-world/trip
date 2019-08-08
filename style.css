@@ -392,7 +392,11 @@ body, html{
     }
 
     .inner li{
-        margin-bottom: 15px;
+        margin-bottom: 30px;
+    }
+
+    .link-scroll{
+        border: 1px solid grey;
     }
 
     .link-scroll:hover{
@@ -422,6 +426,8 @@ body, html{
 
     .pic-header{
         margin: auto;
+        font-size: 70%;
+        color: grey;
     }
 
     .pic-subtitle{
