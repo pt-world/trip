@@ -412,12 +412,12 @@ body, html{
     }
 
     .modal-open{
-        margin-top: 5%;
+        margin-top: 10%;
         border: 1px solid grey;
     }
 
     .modal-open:hover{
-        border: none;
+        border: ;
     }
 
     .pic-header{
