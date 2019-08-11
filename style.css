@@ -86,17 +86,19 @@ body, html{
     background: white;
     border: white 1px solid;
     color: grey;
-    padding: 5px 15px;
-    font-size: 70%;
+    padding: 10px 20px;
+    font-size: 12px;
     letter-spacing: 5px;
     text-decoration: none;
     cursor: pointer;
     text-transform: uppercase;
+    border-radius: 3px;
 }
 
 .link-scroll:hover{
     border: 1px solid rgb(173, 173, 173);
     transition: 0.75s ease;
+    border-radius: 3px;
 }
 
 .link-scroll:active{
@@ -150,6 +152,8 @@ body, html{
     margin: auto;
     height: 100%;
     max-height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .content-wrapper{
@@ -207,9 +211,9 @@ body, html{
 .modal-open{
     display: block;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
-    padding: 7px 20px;
+    padding: 10px 20px;
     text-align: center;
     width: max-content;
     height: auto;
@@ -219,10 +223,10 @@ body, html{
 }
 
 .modal-open:hover{
-    border: 1px solid grey;
-    transition: 0.75s ease;
+    border: 1px solid rgb(173, 173, 173);
+    transition: 0.75s ease;  
+    border-radius: 3px; 
 }
-
 
 
 .pic-header{
@@ -319,9 +323,10 @@ body, html{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 5px 10px;
-    font-size: 11px;
-    letter-spacing: 1px;
+    padding: 10px 10px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     border: 1px grey solid;
     border-radius: 3px;
     outline: none;
@@ -379,6 +384,7 @@ body, html{
 
     .container{
         height: 90%;
+        margin: 0px;
     }
 
     .modal-img{
@@ -397,10 +403,11 @@ body, html{
 
     .link-scroll{
         border: 1px solid grey;
+        font-size: 10px;
     }
 
     .link-scroll:hover{
-        border: none;
+        border: 1px solid grey;
     }
 
     .quote-content{
@@ -418,6 +425,7 @@ body, html{
     .modal-open{
         margin-top: 10%;
         border: 1px solid grey;
+        border-radius: 3px;
     }
 
     .modal-open:hover{
@@ -426,7 +434,7 @@ body, html{
 
     .pic-header{
         margin: auto;
-        font-size: 70%;
+        font-size: 10px;
         color: grey;
     }
 
