@@ -152,8 +152,6 @@ body, html{
     margin: auto;
     height: 100%;
     max-height: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .content-wrapper{
@@ -164,39 +162,6 @@ body, html{
     transform: translate(-50%, -50%);
     width: 100%;
     
-}
-
-.material-icons{
-    position: relative;
-    display: block;
-    width: min-content;
-    margin:auto;
-    margin-bottom: 20px;
-    cursor: pointer;
-    background: white;
-    text-transform: none;
-    color: rgb(168, 168, 168, 0.54);
-}
-
-.material-icons a{
-    text-decoration: none;
-}
-
-.material-icons:hover{
-    animation: MoveUpDown 0.4s linear;
-}
-
-@keyframes MoveUpDown {
-    0%, 100% {
-      bottom: 0;
-    }
-    50% {
-      bottom: 4px;
-    }
-  }
-
-.material-icons a:active{
-    color: black;
 }
 
 .img{
@@ -231,19 +196,10 @@ body, html{
 
 .pic-header{
     display: block;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin: auto;
     letter-spacing: 5px;
     font-size: 14px;
     text-transform: uppercase; 
-}
-
-.pic-subtitle{
-    font-size: 12px;
-    letter-spacing: 1px;
-    color: grey;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 .modal{
@@ -298,7 +254,7 @@ body, html{
 
 .modal-img{
     display: block;
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -349,6 +305,41 @@ body, html{
     text-align: center;
     font-size: 9px;
     color: grey;
+}
+
+.material-icons{
+    position: relative;
+    display: block;
+    width: min-content;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: white;
+    text-transform: none;
+    color: rgb(168, 168, 168, 0.54);
+    display: none;
+}
+
+.material-icons a{
+    text-decoration: none;
+}
+
+.material-icons:hover{
+    animation: MoveUpDown 0.4s linear;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 4px;
+    }
+  }
+
+.material-icons a:active{
+    color: black;
 }
 
 @keyframes modal-open{
@@ -447,6 +438,39 @@ body, html{
     .modal-img{
         width: 95%;
     }
+
+    .material-icons{
+    position: relative;
+    display: block;
+    width: min-content;
+    margin:auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: white;
+    text-transform: none;
+    color: rgb(168, 168, 168, 0.54);
+}
+
+.material-icons a{
+    text-decoration: none;
+}
+
+.material-icons:hover{
+    animation: MoveUpDown 0.4s linear;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 4px;
+    }
+  }
+
+.material-icons a:active{
+    color: black;
+}
 
 }
 
